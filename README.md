@@ -1,2 +1,2 @@
-# google-homepage
+# OdinProject : google-homepage
 odiprojects-html-css-assignment
