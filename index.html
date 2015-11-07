@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="google.css">
 		<title>Index</title>
 	</head>
-	<body>
+	<body id="wrapper">
         <header>
             <ul>
                 <li><a href="">Tony</a></li>
@@ -20,13 +20,29 @@
         <div class="img" id="google-icon">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_Google_2013_Official.svg/1280px-Logo_Google_2013_Official.svg.png" alt="google" class="google">
         </div>
-        <form action="#" method="POST" name="my_form">
-            <input type="text" name="username">
+        <form action="#" method="POST" name="gsearch" id="gsearchbar">
+            <input type="text" name="gsearch"><br>
+            <input type="submit" name="search" value="search">
+            <input type="submit" name="lucky" value="luckysearch">
         </form>
-        </div>    
+            
+        </div> 
         
-<!--        TODO : BUTTOn -->
-
-<!--        TODO : Footer left and right -->
+        <div id="footer">
+                <div class="footer" id="leftfooter">
+                    <ul>
+                        <li>Advertising</li>
+                        <li>Business</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+                <div class="footer" id="rightfooter">
+                    <ul>
+                        <li>Privacy</li>
+                        <li>Terms</li>
+                        <li>Settings</li>
+                    </ul>
+                </div>
+        </div>
 	</body>
 </html>
