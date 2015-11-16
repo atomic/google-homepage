@@ -78,24 +78,28 @@ body form {
     outline      : none;
 }
 
-#footer {
-    background-color: azure;
-	width:100%;
-	height:100px;
+footer {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 100%;
+/*	width:100%;*/
+/*	height:100px;*/
 	position:absolute;
 	bottom:0;
-	left:0;
-}
-
-#footer #leftfooter {
-    margin: 15px;
-    float: left;
-}
-
-#footer #rightfooter {
-    margin: 15px;
-    float: right;
-}
-
-#leftfooter ul {
+    a {
+        margin-left: 15px;
+    }
+    ul {
+        padding: 0 0 0 20px;
+    }
+    #leftfooter {
+        float: left;
+        margin: 0;
+    }
+    #rightfooter {
+        float: right;
+        margin: 0;
+        margin-right: 20px;
+    }
 }
